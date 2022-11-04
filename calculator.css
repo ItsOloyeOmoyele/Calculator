@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 3rem;
+  margin: 1em;
+  background-color: hsl(0, 0%, 70%);
+  border: solid hsl(240, 100%, 65%) 10px;
+  border-radius: 20px;
+}
+
+.display {
+  height: 22vh;
+  width: auto;
+  margin-bottom: 0.2em;
+}
+
+.display-container {
+  width: 100%;
+  height: 100%;
+}
+
+.history {
+  font-size: 0.8em;
+  display: inline-block;
+  border: solid 2px brown;
+  float: right;
+  margin: 0.2rem;
+  background-color: hsl(0, 0%, 80%);
+  padding: 0.125rem 0.25rem;
+  color: hsl(240, 100%, 65%);
+}
+
+.display-input {
+  width: 100%;
+  height: 74%;
+  padding: 1em 0.4em;
+  text-align: right;
+  font-size: 3rem;
+  border: 2px hsl(0, 0%, 99%) solid;
+  background-color: hsl(0, 0%, 86%);
+  color: hsl(0, 0%, 30%);
+}
+
+.button-container {
+  background-color: hsl(0, 0%, 80%);
+  color: hsl(0, 0%, 20%);
+  height: 68vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: hsl(240, 100%, 70%) solid 5px;
+}
+
+p {
+  display: flex;
+  width: 20%;
+  height: 14%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 5px 5px 10px hsl(240, 100%, 70%);
+}
+
+.numbers {
+  color: red;
+  font-size: 4rem;
+}
+
+.arithmetic {
+  font-size: 3rem;
+}
+
+.equals {
+  background-color: red;
+  border-radius: 20px;
+  font-size: 4rem;
+}
+
+/* mobile-devices */
+@media (max-width: 599px) {
+  body {
+    border: hsl(240, 100%, 65%) solid 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+
+  .display-input {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 6px hsl(240, 100%, 70%);
+  }
+
+  .numbers {
+    font-size: 2.5em;
+  }
+
+  .arithmetic {
+    font-size: 2.5em;
+  }
+
+  .equals {
+    font-size: 3em;
+  }
+}
