@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   background-color: hsl(0, 0%, 70%);
   border: solid hsl(240, 100%, 65%) 10px;
   border-radius: 20px;
@@ -86,7 +86,7 @@ p {
   body {
     border: hsl(240, 100%, 65%) solid 5px;
     border-radius: 10px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 
   .display-input {
