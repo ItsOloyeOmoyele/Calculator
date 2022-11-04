@@ -6,7 +6,7 @@
 
 body {
   font-size: 3rem;
-  margin: 1em;
+  /* margin: 1em; */
   background-color: hsl(0, 0%, 70%);
   border: solid hsl(240, 100%, 65%) 10px;
   border-radius: 20px;
