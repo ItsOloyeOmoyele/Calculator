@@ -5,14 +5,14 @@
 }
 
 body {
-  /* font-size: 3rem; */
   background-color: hsl(0, 0%, 70%);
   border: solid hsl(240, 100%, 65%) 10px;
   border-radius: 20px;
+  margin: 0.7em;
 }
 
 .display {
-  height: 22vh;
+  height: 25vh;
   width: auto;
   margin-bottom: 0.2em;
 }
@@ -23,36 +23,34 @@ body {
 }
 
 .history {
-  font-size: 0.8em;
-  display: inline-block;
-  border: solid 2px brown;
   float: right;
-  margin: 0.2rem;
+  font-size: 1.5em;
+  border: solid 2px brown;
   background-color: hsl(0, 0%, 80%);
-  padding: 0.125rem 0.25rem;
   color: hsl(240, 100%, 65%);
+  margin: 0.2rem;
+  padding: 0.125rem 0.25rem;
 }
 
 .display-input {
   width: 100%;
   height: 74%;
-  margin-bottom: 1rem;
-  padding: 1em 0.4em;
-  text-align: right;
-  font-size: 3rem;
-  border: 2px hsl(0, 0%, 99%) solid;
   background-color: hsl(0, 0%, 86%);
   color: hsl(0, 0%, 30%);
+  border: 2px hsl(0, 0%, 99%) solid;
+  text-align: right;
+  font-size: 3rem;
+  padding: 1em 0.4em;
 }
 
 .button-container {
-  background-color: hsl(0, 0%, 80%);
-  color: hsl(0, 0%, 20%);
-  height: 68vh;
   display: flex;
+  height: 68vh;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: hsl(0, 0%, 80%);
   border-top: hsl(240, 100%, 70%) solid 5px;
+  color: hsl(0, 0%, 20%);
 }
 
 p {
@@ -86,7 +84,6 @@ p {
   body {
     border: hsl(240, 100%, 65%) solid 5px;
     border-radius: 10px;
-    /* font-size: 1rem; */
   }
 
   .display-input {
